@@ -10,8 +10,8 @@ body {
     display: grid;
     place-items: center;
     margin: 0;
-    /* background-image: url(../Images/greenimage.jpg); */
-    background-color: rgba(60, 85, 83, 0.788);
+    background-image: url(../Img/pexels-pixabay-258109.jpg);
+    /* background-color: rgba(131, 7, 110, 0.781); */
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Poppins;
