@@ -1,0 +1,68 @@
+/* .qube{
+    margin: 0px auto;
+    border-radius: 10px;
+    
+    
+}
+
+.img1{
+    position: relative;
+    top: 13px;
+    margin-top: 5px;
+    margin-left: 13px;
+    border-radius: 10px;
+}
+
+.text1{
+    position: absolute;
+    margin-left: 78px;
+    margin-top: auto
+}
+
+.qube2{
+    margin-top: 10px;
+    border-radius: 10px;
+} */
+
+/* .qube222{
+    position: relative;
+    top: auto;
+    border-radius: 20px;
+
+}
+
+.qube202{
+    position: relative;
+    top: 200px;
+    margin-left: 1200px;
+    border-radius: 20px;
+
+} */
+
+
+
+
+/* Container holding the image and the text */
+/* .container {
+    position: relative;
+    background-color: aqua;
+    text-align: center;
+
+  } */
+  
+  /* Top left text */
+  /* .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  } */
+  
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    top: 2px;
+    left: 0px;
+    background-color: aqua;
+  }
+ 
