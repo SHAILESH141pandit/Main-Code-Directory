@@ -10,8 +10,12 @@ body {
     display: grid;
     place-items: center;
     margin: 0;
+
     /* background-image: url(../Img/pexels.jpg); */
-    background-color: rgba(190, 190, 190, 0.87);
+    /* background-color: rgba(190, 190, 190, 0.87); */
+    background: rgb(2,0,36);
+    background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(23,23,162,1) 50%, rgba(0,212,255,1) 100%);
+
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Poppins;
@@ -47,9 +51,11 @@ button {
 }
 
 .login-card > h2 {
+    position:relative;
     font-size: 36px;
-    font-weight: 600;
     margin: 0 0 6px;
+    font-weight: 600;
+    margin-left: 35%;
 }
 
 .login-card > h3 {
@@ -57,6 +63,8 @@ button {
     margin: 0 0 40px;
     font-weight: 500;
     font-size: 1rem;
+    margin-left: 25%;
+
 }
 
 .login-form {
