@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+
+html, body, .wrapper { height: 100%; }
+
+@keyframes rotate {
+    100% { background-position: 0% 50%; }
+}
+
+
+.headings {
+    margin-left: 40px;
+}
+
+
+.list {
+    margin-left: 40px;
+}
+
+h3 {
+    margin-left: 25px;
+}
+
+.history {
+    margin-left: 40px;
+}
