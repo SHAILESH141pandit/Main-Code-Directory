@@ -3,41 +3,38 @@
 .switch input { display: none; }
 
 .switch label {
-    display: black;
-    width: 60px;
+    position: relative;
+    display: block;
+    /* width: 100px; */
+    /* height: 50px; */
+    width: 80px;
     height: 30px;
-    padding: 3px;
-    border-radius: 15px;
-    border: 2px solid #7e8382;
+    background: #888;
+    border-radius: 60px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.switch label::after {
+.switch label:before {
+    position: absolute;
+    top: 50%;
+    /* left: 5px; */
+    left: 0px;
     content: "";
-    display: inherit;
-    width: 20px;
-    height: 20px;
-    border-radius: 12px;
-    background: #7e8382;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #eee;
+    border-radius: 50%;
+    transform: translateY(-50%);
     transition: 0.3s;
 }
 
-.switch input:checked ~ label {
-    border-color: #25c89c;
+.switch input:checked + label {
+    background: #00acee;
 }
 
-.switch input:checked ~ label::after {
-    translate: 30px 0;
-    background: #25c89c;
-}
-
-.switch input:disabled ~ label {
-    opacity: 0.35;
-    cursor: not-allowed;
-}
-
-.switch.square label,
-.switch.square label::after {
-    border-radius: 0;
+.switch input:checked + label::before {
+    /* left: 55px; */
+    left: 40px;
 }
