@@ -3,7 +3,7 @@
 print()
 def Permanent_Money(MoneyName, ParticipantNum):
     varib = int(input(f"Please Enter Total {MoneyName} : "))
-    Per_hed_flat = varib/ParticipantNum
+    Per_hed_flat = varib//ParticipantNum
     print(f"Per Hed {MoneyName}", Per_hed_flat)
     return Per_hed_flat
 
@@ -93,7 +93,7 @@ if 'shailesh' in Listof_Mans:
 # Prakash
 Prakash_spent_money = 0
 if 'prakash' in Listof_Mans:
-    Prakesh_spant_money = Get_Spend_Money("Prakash")
+    Prakash_spent_money = Get_Spend_Money("Prakash")
 
 
 # Anurag civil
@@ -114,7 +114,7 @@ print("Total_mesh_money:", Total_mesh_money)
 
 
 # Per hed mesh money calculation
-Per_hed_mesh = Total_mesh_money/WNumber
+Per_hed_mesh = Total_mesh_money//WNumber
 print("Per_hed_mesh:", Per_hed_mesh)
 
 
@@ -146,7 +146,7 @@ def Result(Name, finalmesh):
             print(Name," sir :     ", T)
     else:
         T = Total_Permanent_Money
-        print(Name," sir :     -", T)
+        print(Name," sir :     -",T)
 
 
 Result('alok', Alokmesh)
